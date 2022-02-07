@@ -1,0 +1,30 @@
+body {
+    background-color: LemonChiffon;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+
+h3 {
+    color: black;
+    text-align: left;
+}
+
+    h3:hover {
+        color: white;
+        border: 2px solid orange;
+        background-color: black;
+    }
+
+p {
+    color: black;
+    padding: 10px;
+    margin-inline-end: 40px;
+}
+
+
