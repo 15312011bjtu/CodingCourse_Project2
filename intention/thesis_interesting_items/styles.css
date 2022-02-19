@@ -1,5 +1,7 @@
 body {
     background-color: LemonChiffon;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -10,16 +12,6 @@ h1 {
 
 
 
-h3 {
-    color: black;
-    text-align: left;
-}
-
-    h3:hover {
-        color: black;
-        border: 2px solid white;
-        background-color: white;
-    }
 
 p {
     color: black;
@@ -28,5 +20,28 @@ p {
 }
 
 
-.container {
+nav {
+    height: 60px;
+}
+
+ul.topmenu {
+    display: flex;
+    color:white;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+    background: tomato;
+    margin: 0;
+    line-height: 60px;
+}
+
+
+.layout-center {
+    text-align: center;
+    margin:12px;
+}
+
+img {
+    /*width:75vw;*/
+    background-size: cover;
 }
